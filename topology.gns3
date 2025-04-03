@@ -474,8 +474,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "c3e15233-4a70-4dc2-9949-a31dea33082a",
                 "width": 66,
-                "x": -169,
-                "y": 163,
+                "x": -209,
+                "y": 228,
                 "z": 1
             },
             {
@@ -681,8 +681,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "c3e15233-4a70-4dc2-9949-a31dea33082a",
                 "width": 66,
-                "x": 128,
-                "y": -212,
+                "x": 139,
+                "y": -230,
                 "z": 1
             },
             {
@@ -750,8 +750,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "c3e15233-4a70-4dc2-9949-a31dea33082a",
                 "width": 66,
-                "x": -110,
-                "y": 64,
+                "x": -170,
+                "y": 106,
                 "z": 1
             },
             {
@@ -888,8 +888,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "c3e15233-4a70-4dc2-9949-a31dea33082a",
                 "width": 66,
-                "x": -141,
-                "y": -40,
+                "x": -133,
+                "y": -36,
                 "z": 1
             }
         ]

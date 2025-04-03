@@ -1,0 +1,29 @@
+Apr 01 18:54:37.068 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Apr 01 18:54:37.068 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60254.
+Apr 01 18:54:37.076 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 01 18:54:37.076 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/vanyamanko/Documents/network-administration/project-files/dynamips 
+Apr 01 18:54:37.076 GENERAL: working_dir=/Users/vanyamanko/Documents/network-administration/project-files/dynamips
+Apr 01 18:54:37.077 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/vanyamanko/Documents/network-administration/project-files/dynamips/1f8f7d25-3f50-441e-a611-0a39a77769fd 
+Apr 01 18:54:37.077 GENERAL: working_dir=/Users/vanyamanko/Documents/network-administration/project-files/dynamips/1f8f7d25-3f50-441e-a611-0a39a77769fd
+Apr 01 18:54:37.077 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Apr 01 18:54:37.077 VM: VM R1 created.
+Apr 01 18:54:37.077 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5001 
+Apr 01 18:54:37.077 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Apr 01 18:54:37.078 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 01 18:54:37.078 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Apr 01 18:54:37.078 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 01 18:54:37.078 HYPERVISOR: exec_cmd: vm set_ios R1 /Users/vanyamanko/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.image 
+Apr 01 18:54:37.078 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca01.1328.0000 
+Apr 01 18:54:37.079 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Apr 01 18:54:37.079 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Apr 01 18:54:37.079 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 01 18:54:37.079 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Apr 01 18:54:37.532 HYPERVISOR: exec_cmd: nio create_udp udp-1d86d87f-3b10-4b55-a7a2-11bd9a9ee7e5 10004 127.0.0.1 10005 
+Apr 01 18:54:37.754 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-1d86d87f-3b10-4b55-a7a2-11bd9a9ee7e5 
+Apr 01 18:54:37.754 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 01 18:54:37.788 HYPERVISOR: exec_cmd: nio create_udp udp-9e5349b4-25d7-4eea-8d57-8ee5907a55ea 10008 127.0.0.1 10009 
+Apr 01 18:54:37.789 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-9e5349b4-25d7-4eea-8d57-8ee5907a55ea 
+Apr 01 18:54:37.790 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 01 18:54:39.383 HYPERVISOR: exec_cmd: nio create_udp udp-b37f2f31-0057-482e-b619-08a0affe1e9f 10050 127.0.0.1 10051 
+Apr 01 18:54:39.384 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 1 udp-b37f2f31-0057-482e-b619-08a0affe1e9f 
+Apr 01 18:54:39.385 HYPERVISOR: exec_cmd: vm get_status R1 

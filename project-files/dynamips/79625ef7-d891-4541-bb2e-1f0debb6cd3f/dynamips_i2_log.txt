@@ -1,0 +1,23 @@
+Apr 01 18:54:37.099 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Apr 01 18:54:37.111 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60290.
+Apr 01 18:54:37.111 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 01 18:54:37.111 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/vanyamanko/Documents/network-administration/project-files/dynamips 
+Apr 01 18:54:37.111 GENERAL: working_dir=/Users/vanyamanko/Documents/network-administration/project-files/dynamips
+Apr 01 18:54:37.111 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/vanyamanko/Documents/network-administration/project-files/dynamips/79625ef7-d891-4541-bb2e-1f0debb6cd3f 
+Apr 01 18:54:37.111 GENERAL: working_dir=/Users/vanyamanko/Documents/network-administration/project-files/dynamips/79625ef7-d891-4541-bb2e-1f0debb6cd3f
+Apr 01 18:54:37.111 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Apr 01 18:54:37.112 VM: VM R2 created.
+Apr 01 18:54:37.112 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Apr 01 18:54:37.112 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Apr 01 18:54:37.112 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 01 18:54:37.112 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Apr 01 18:54:37.113 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 01 18:54:37.113 HYPERVISOR: exec_cmd: vm set_ios R2 /Users/vanyamanko/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M11.image 
+Apr 01 18:54:37.113 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.1334.0000 
+Apr 01 18:54:37.114 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Apr 01 18:54:37.114 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Apr 01 18:54:37.114 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 01 18:54:37.114 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Apr 01 18:54:39.063 HYPERVISOR: exec_cmd: nio create_udp udp-64332e40-f1c9-45ac-b9fe-bb005cd466fd 10034 127.0.0.1 10035 
+Apr 01 18:54:39.295 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-64332e40-f1c9-45ac-b9fe-bb005cd466fd 
+Apr 01 18:54:39.296 HYPERVISOR: exec_cmd: vm get_status R2 
